@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafi's Portfolio</title>
+  <style>
+    /* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #72BE8E; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #ffffff; /* White background for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  text-align: center;
+  transform: translateY(100px);
+  animation: slideUp 1s ease-out forwards;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Dark blue */
+}
+
+.about, .habit {
+  margin: 20px 0;
+}
+
+.about h2, .habit h2 {
+  font-size: 1.8rem;
+  color: #34495e; /* Slightly darker blue */
+}
+
+.about p, .habit ul {
+  font-size: 1rem;
+  color: #555; /* Gray text */
+}
+
+.habit ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.habit li {
+  margin: 5px 0;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1da1f2; /* Blue icons */
+  font-size: 1.8rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0078d7; /* Slightly darker blue on hover */
+  transform: scale(1.2); /* Zoom effect */
+}
+
+/* Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+  </style>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="name">All Rafi</h1>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello! My name is Rafi, and I am passionate about design and creativity. I love exploring new ideas and sharing my journey with others.</p>
+    </section>
+    <section class="habit">
+      <h2>My Habits</h2>
+      <ul>
+        <li>Learning new skills</li>
+        <li>Graphic designing</li>
+        <li>Reading inspiring books</li>
+        <li>Working on creative projects</li>
+      </ul>
+    </section>
+    <footer class="social-links">
+      <a href="https://www.facebook.com/allu.rafi.92?mibextid=ZbWKwL" target="_blank" class="icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/allu.rafi/profilecard/?igsh=MXc3d3B4aTd3Mmc5Yw==" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/qr/B3S3PUIACUGJC1" target="_blank" class="icon"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.threads.net/@allu.rafi?invite=0" target="_blank" class="icon"><i class="fab fa-t"></i></a>
+    </footer>
+    <br>
+    
+    <footer>
+   ©️ 2024 all rafi | All Rights Reserved
+    </footer>
+    
+    
+  </div>
+  <script> console.log("Welcome to Rafi's Portfolio!");</script>
+</body>
+</html>
